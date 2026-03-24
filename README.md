@@ -1,4 +1,4 @@
-# Mailto Copy Hijacker
+# mailto:copy
 
 Chrome extension that intercepts `mailto:` links and copies the email address to the clipboard instead of opening the system email app.
 
