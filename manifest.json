@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Mailto Copy Hijacker",
+  "version": "1.0.0",
+  "description": "Intercepts mailto links and copies the email address instead of opening an email client.",
+  "permissions": [
+    "clipboardWrite"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_start",
+      "all_frames": true
+    }
+  ]
+}
