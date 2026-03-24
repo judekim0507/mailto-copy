@@ -63,6 +63,7 @@
       toast.style.transition = "opacity 140ms ease, transform 140ms ease";
       toast.style.pointerEvents = "none";
       doc.body.appendChild(toast);
+      toast.offsetWidth;
     }
 
     toast.textContent = message;
